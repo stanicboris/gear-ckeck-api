@@ -1,0 +1,53 @@
+{
+	"type": "Collection",
+	"properties": {
+		"name": {
+			"name": "name",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "name",
+			"order": 0
+		},
+		"created": {
+			"name": "created",
+			"type": "date",
+			"typeLabel": "date",
+			"required": true,
+			"id": "created",
+			"order": 1
+		},
+		"started": {
+			"name": "started",
+			"type": "date",
+			"typeLabel": "date",
+			"required": false,
+			"id": "started",
+			"order": 2
+		},
+		"validated": {
+			"name": "validated",
+			"type": "date",
+			"typeLabel": "date",
+			"required": false,
+			"id": "validated",
+			"order": 3
+		},
+		"checked": {
+			"name": "checked",
+			"type": "boolean",
+			"typeLabel": "boolean",
+			"required": true,
+			"id": "checked",
+			"order": 4
+		},
+		"list": {
+			"name": "list",
+			"type": "array",
+			"typeLabel": "array",
+			"required": true,
+			"id": "list",
+			"order": 5
+		}
+	}
+}
